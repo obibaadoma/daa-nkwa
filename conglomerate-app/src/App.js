@@ -1,9 +1,9 @@
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Pharmacy from './pages/Pharmacy';
 import Farm from './pages/Farm';
 import RealEstate from './pages/RealEstate';
+import "./App.css";
 
 const App = () => {
     return (

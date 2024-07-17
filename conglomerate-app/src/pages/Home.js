@@ -2,8 +2,9 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import CarouselComponent from '../components/CarouselComponent';
 import About from '../components/About';
+import Service from '../components/Service';
 import { Element } from 'react-scroll';
-import { aboutData } from '../data/pageData';
+import { aboutData, serviceData } from '../data/pageData';
 
 const Home = () => {
     return (
@@ -19,6 +20,9 @@ const Home = () => {
                 <CarouselComponent className="mt-8" />
                 <Element name="about">
                     <About data={aboutData} />
+                </Element>
+                <Element name="service">
+                    <Service data={serviceData} />
                 </Element>
             </div>
         </div>

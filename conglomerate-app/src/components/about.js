@@ -5,7 +5,7 @@ const About = ({ data }) => {
         <div id="about" className="container mx-auto p-4 mt-8">
             <div className="flex flex-wrap">
                 <div className="w-full md:w-1/2">
-                    <img src="/img/about.jpg" className="w-full h-auto" alt="About us" />
+                    <img src="/img/about.jpg" className="w-full h-auto" alt="About-us" />
                 </div>
                 <div className="w-full md:w-1/2 mt-4 md:mt-0 md:pl-8">
                     <div className="about-text">

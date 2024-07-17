@@ -11,15 +11,15 @@ const CarouselComponent = () => {
             stopOnHover={false}  // Ensure the carousel keeps scrolling
         >
             <div>
-                <img src="https://via.placeholder.com/800x400" alt="Image 1" />
+                <img src="https://via.placeholder.com/800x400" alt="farmFlyer" />
                 <p className="legend">Image 1</p>
             </div>
             <div>
-                <img src="https://via.placeholder.com/800x400" alt="Image 2" />
+                <img src="https://via.placeholder.com/800x400" alt="EstateFlyer" />
                 <p className="legend">Image 2</p>
             </div>
             <div>
-                <img src="https://via.placeholder.com/800x400" alt="Image 3" />
+                <img src="https://via.placeholder.com/800x400" alt="PharmaceuticalFlyer" />
                 <p className="legend">Image 3</p>
             </div>
         </Carousel>

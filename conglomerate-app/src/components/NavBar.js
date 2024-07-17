@@ -10,6 +10,9 @@ const Nav = styled.nav`
     background-color: #4a90e2;
     width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 10;
 `;
 
 const NavLinks = styled.ul`
@@ -63,7 +66,7 @@ const NavBar = () => {
                     <NavAnchor href="#about" className="page-scroll">About</NavAnchor>
                 </NavLinkItem>
                 <NavLinkItem>
-                    <NavAnchor href="#services" className="page-scroll">Services</NavAnchor>
+                    <NavAnchor href="#service" className="page-scroll">Services</NavAnchor>
                 </NavLinkItem>
                 <NavLinkItem>
                     <NavAnchor href="#portfolio" className="page-scroll">Gallery</NavAnchor>
