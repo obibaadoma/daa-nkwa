@@ -3,8 +3,11 @@ import NavBar from '../components/NavBar';
 import CarouselComponent from '../components/CarouselComponent';
 import About from '../components/About';
 import Service from '../components/Service';
+import Testimonials from '../components/Testimonial';
+import Team from '../components/Team';
+import Contact from '../components/Contact';
 import { Element } from 'react-scroll';
-import { aboutData, serviceData } from '../data/pageData';
+import { aboutData, serviceData, testimonialData, teamData, contactData } from '../data/pageData';
 
 const Home = () => {
     return (
@@ -18,11 +21,23 @@ const Home = () => {
                     </h2>
                 </div>
                 <CarouselComponent className="mt-8" />
+                <br/>
                 <Element name="about">
                     <About data={aboutData} />
                 </Element>
+                <br/>
                 <Element name="service">
                     <Service data={serviceData} />
+                </Element>
+                <br/>
+                <Element name="testimonial">
+                    <Testimonials data={testimonialData} />
+                </Element>
+                <Element name="team">
+                    <Team data={teamData} />
+                </Element>
+                <Element name="contact">
+                    <Contact data={contactData} />
                 </Element>
             </div>
         </div>

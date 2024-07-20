@@ -2,7 +2,7 @@ import React from 'react';
 
 const Service = ({ data }) => {
   return (
-    <div id="services" className="py-16 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 text-white">
+    <div id="service" className="py-16 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 text-white">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Our Services</h2>
         <p className="text-xl mb-8">

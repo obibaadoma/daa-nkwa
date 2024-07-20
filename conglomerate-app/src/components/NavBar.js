@@ -69,13 +69,10 @@ const NavBar = () => {
                     <NavAnchor href="#service" className="page-scroll">Services</NavAnchor>
                 </NavLinkItem>
                 <NavLinkItem>
-                    <NavAnchor href="#portfolio" className="page-scroll">Gallery</NavAnchor>
+                    <NavAnchor href="#testimonials" className="page-scroll">Testimonials</NavAnchor>
                 </NavLinkItem>
                 <NavLinkItem>
                     <NavAnchor href="#team" className="page-scroll">Team</NavAnchor>
-                </NavLinkItem>
-                <NavLinkItem>
-                    <NavAnchor href="#testimonials" className="page-scroll">Testimonials</NavAnchor>
                 </NavLinkItem>
                 <NavLinkItem>
                     <NavAnchor href="#contact" className="page-scroll">Contact</NavAnchor>

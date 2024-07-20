@@ -54,7 +54,7 @@ export const serviceData = [
     }
   ];
 
-export const testimonialsData = [
+export const testimonialData = [
   {
     img: "img/testimonials/01.jpg",
     text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
@@ -63,12 +63,12 @@ export const testimonialsData = [
   {
     img: "img/testimonials/02.jpg",
     text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-    name: "Johnathan Doe"
+    name: "Johnathan Okyere"
   },
   {
     img: "img/testimonials/03.jpg",
     text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-    name: "John Doe"
+    name: "Paul Smith"
   },
   {
     img: "img/testimonials/04.jpg",
@@ -90,30 +90,20 @@ export const testimonialsData = [
 export const teamData = [
   {
     img: "img/team/01.jpg",
-    name: "John Doe",
-    job: "Director"
+    name: "Derek Konadu",
+    job: "Ranch Director"
   },
   {
     img: "img/team/02.jpg",
-    name: "Mike Doe",
-    job: "Senior Designer"
-  },
-  {
-    img: "img/team/03.jpg",
-    name: "Jane Doe",
-    job: "Senior Designer"
-  },
-  {
-    img: "img/team/04.jpg",
-    name: "Karen Doe",
-    job: "Project Manager"
+    name: "Samuel Opoku",
+    job: "Pharmacy Director"
   }
 ];
 
 export const contactData = {
   address: "4321 California St, San Francisco, CA 12345 ",
   phone: "+1 123 456 1234",
-  email: "info@company.com",
+  email: "info@daa.com",
   facebook: "fb.com",
   twitter: "twitter.com",
   youtube: "youtube.com"
